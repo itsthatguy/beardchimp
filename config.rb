@@ -33,7 +33,7 @@
 # Per-page layout changes:
 # 
 # With no layout
-# page "/path/to/file.html", :layout => false
+#page "/index.slim", :layout => :layout
 # 
 # With alternative layout
 # page "/path/to/file.html", :layout => :otherlayout

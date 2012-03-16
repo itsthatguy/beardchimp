@@ -1,0 +1,2 @@
+#!/bin/bash
+middleman build && rsync -avz --delete build/ itsthatg@beardson.ly:public_html/beardson.ly/
