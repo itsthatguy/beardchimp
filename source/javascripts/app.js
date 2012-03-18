@@ -29,7 +29,6 @@ jQuery(document).ready(function($) {
     var re = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/
 
     if (re.test(email)) {
-      console.log('boo')
       // valid
       submitForm(e)
       subscribe.animate({opacity: 0}, 400)
@@ -52,5 +51,4 @@ jQuery(document).ready(function($) {
 
   $("form").submit(validate)
   
-  console.log('boom')
 })
