@@ -6,3 +6,14 @@
    background-position: -50px 0;
   }
 }
+
+@-webkit-keyframes slide-in {
+  from {
+    margin-top: -40px;
+    opacity: 0;
+  }
+  to {
+   margin-top: 0;
+   opacity: 1;
+  }
+}
